@@ -26,7 +26,7 @@ a:hover {
 
 header {
     height: 70px;
-    padding: 0px 14px;
+    padding: 0px 20px;
     position: sticky;
     top: 0px;
     background-color: white;
@@ -67,16 +67,22 @@ header {
     display: flex;
     background: rgb(35,195,255);
     background: linear-gradient(270deg, rgba(35,195,255,1) 0%, rgba(255,255,255,1) 80%);
+    padding: 0px 20px;
 }
 
 .big-hero__inner {
-    color: black;
-    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-hero__inner__title {
+    font-size: 1.5em;
+    line-height: 100%;
 }
 
 .big-hero__img {
-    height: 350px;
-    
+    height: 300px;
+
 }
 
 .top-btn {
@@ -111,7 +117,8 @@ header {
 }
 
 .content-wrapper {
-    margin: 40px;
+    margin: 40px 0px 0px 0px;
+    padding: 0px 20px;
 }
 
 .graphic {
@@ -120,12 +127,21 @@ header {
 }
 
 .graphic__img {
-    height: 150px;
+    height: 130px;
+}
+
+.graphic__title {
+    font-size: 1.3em;
+}
+
+.graphic__text {
+    font-size: 0.9em;
 }
 
 .middle-text {
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
+    line-height: 150%;
 }
 
 .offers__box {
@@ -139,23 +155,28 @@ header {
     border-radius: 13px;
 }
 
+.offers__box__title {
+    font-size: 2em;
+    line-height: 0;
+}
 .bottom-btn {
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
 }
 
 footer {
     background-color: #F4F4FA;
-    height: 70px;
+    height: 80px;
+    padding: 20px;
 }
 
 .social {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .social__icon {
-    margin: 0px 20px;
+    margin: 0px 30px;
     font-size: 2em;
 }
