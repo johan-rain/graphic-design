@@ -136,6 +136,7 @@ header {
 
 .graphic__text {
     font-size: 0.9em;
+    padding: 0px 15px;
 }
 
 .middle-text {
