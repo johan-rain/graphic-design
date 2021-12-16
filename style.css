@@ -1,13 +1,18 @@
+@import url("https://use.typekit.net/fjj6ygl.css");
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    font-family: sofia-pro;
     font-size: 18px;
     line-height: 150%;
     color: #19191D;
-    margin: 0 auto;
-    overflow-y: auto;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
@@ -20,6 +25,7 @@ a:hover {
 }
 
 header {
+    height: 70px;
     padding: 0px 14px;
     position: sticky;
     top: 0px;
@@ -29,11 +35,15 @@ header {
     justify-content: space-between;
 }
 
+.logo__icon {
+    width: 100px;
+}
+
 .nav-bar {
     display: none;
     background-color: white;
     position: fixed;
-    top: 98px;
+    top: 70px;
     left: 0;
     right: 0;
     text-align: center;
@@ -53,7 +63,7 @@ header {
 }
 
 .big-hero {
-    height: 350px;
+    height: 450px;
     display: flex;
     background: rgb(35,195,255);
     background: linear-gradient(270deg, rgba(35,195,255,1) 0%, rgba(255,255,255,1) 80%);
@@ -62,4 +72,90 @@ header {
 .big-hero__inner {
     color: black;
     font-size: 1em;
+}
+
+.big-hero__img {
+    height: 350px;
+    
+}
+
+.top-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-blue {
+    background-color: #2819ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.content-wrapper {
+    margin: 40px;
+}
+
+.graphic {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.graphic__img {
+    height: 150px;
+}
+
+.middle-text {
+    font-size: 3em;
+    text-align: center;
+}
+
+.offers__box {
+    border-radius: 15px;
+    border: 2px solid #C3C3C3;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.offers__box__img {
+    border-radius: 13px;
+}
+
+.bottom-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #F4F4FA;
+    height: 70px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__icon {
+    margin: 0px 20px;
+    font-size: 2em;
 }
