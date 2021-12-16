@@ -160,6 +160,10 @@ header {
     font-size: 2em;
     line-height: 0;
 }
+
+.offers__box__text {
+    padding: 0px 20px;
+}
 .bottom-btn {
     display: flex;
     flex-direction: column;
