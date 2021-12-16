@@ -17,10 +17,10 @@
 
         <nav class="nav-bar">
             <ul class="nav-bar__inner">
-                <li class="nav-bar__inner__item">HEM</li>
-                <li class="nav-bar__inner__item">KONTAKT</li>
-                <li class="nav-bar__inner__item">OM OSS</li>
-                <li class="nav-bar__inner__item">FAQ</li>
+                <li class="nav-bar__inner__item"><a onclick="closeMenu()" href="#">Hem</a></li>
+                <li class="nav-bar__inner__item"><a onclick="closeMenu()" href="#">KONTAKT</a></li>
+                <li class="nav-bar__inner__item"><a onclick="closeMenu()" href="#">OM OSS</a></li>
+                <li class="nav-bar__inner__item"><a onclick="closeMenu()" href="#">FAQ</a></li>
             </ul>
         </nav>
 
@@ -28,9 +28,9 @@
             <i class="fa fa-search" aria-hidden="true"></i>
         </a>
 
-        <a class="menu-icon" href="#">
+        <button onclick="openMenu()" class="menu-icon">
             <i class="fas fa-bars"></i>
-        </a>
+        </button>
     </header>
     <!-- Header end -->
 
@@ -129,7 +129,9 @@
 
         </div>                
     </main>
+    <!-- Main end -->
 
+    <!-- Footer start -->
     <footer role="footer">
 
         <div class="social">
@@ -149,7 +151,19 @@
         </div>
 
     </footer>
+    <!-- Footer end -->
+    
+    <!-- Scripts start -->
+    <script>
+        function openMenu() {
+            var element = document.getElementById("menu");
+            element.classList.toggle("open-menu");
+         }
 
-    <script src="script.js"></script>
+        function closeMenu() {
+        var element = document.getElementById("menu");
+        element.classList.remove("open-menu");
+        }
+    </script>    
 </body>
 </html>
