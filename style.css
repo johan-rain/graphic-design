@@ -200,3 +200,27 @@ footer {
     margin: 0px 30px;
     font-size: 2em;
 }
+
+@media only screen and (min-width: 768px) {
+    
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-bar {
+        display: block;
+        position: static;
+        background: none;
+        font-size: 1.3em;
+    }
+    
+    .nav-bar__inner {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nav-bar__inner__item {
+        padding-right: 10px;
+        
+    }
+}
