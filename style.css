@@ -66,6 +66,7 @@ header {
 
 .search-icon {
     font-size: 1.5em;
+    padding-right: 10px;
     color: grey;   
 }
 
@@ -151,6 +152,10 @@ header {
 
 .content-wrapper {
     margin: 40px 0px 0px 0px;
+    padding: 0px 20px;
+}
+
+.graphic-elements {
     padding: 0px 20px;
 }
 
@@ -258,11 +263,11 @@ footer {
     }
     
     .nav-bar__inner__item {
-        padding-right: 15px;
+        padding-right: 30px;
     }
 
     .search-icon {
-        padding-left: 30px;
+        padding: 0px 50px;
     }
 
     .big-hero {
@@ -271,6 +276,7 @@ footer {
     
     .big-hero__img {
         height: 400px;
+        padding-right: 60px;
     }
 
     .big-hero__inner {
