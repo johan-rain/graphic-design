@@ -23,6 +23,8 @@ a:hover {
     text-decoration: underline;
 }
 
+/*Header start*/
+
 header {    
     height: 70px;
     padding: 0px 20px;
@@ -75,6 +77,8 @@ header {
     background-color: transparent;
 }
 
+/*Header End*/
+/*Main Start*/
 .big-hero {
     height: 450px;
     display: flex;
@@ -202,6 +206,9 @@ header {
     margin-top: 25px;
 }
 
+/*Main End*/
+/*Footer Start*/
+
 footer {
     background-color: #F4F4FA;
     height: 80px;
@@ -216,7 +223,12 @@ footer {
 .social__icon {
     margin: 0px 30px;
     font-size: 2em;
+    color: black;
 }
+
+/*Footer End*/
+
+/*Media breakpoint for desktop mode*/
 
 @media only screen and (min-width: 900px) {
     
@@ -330,3 +342,4 @@ footer {
         margin-bottom: 60px; 
     }
 }
+/*End of media breakpoint for desktop mode*/
