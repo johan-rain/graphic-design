@@ -17,7 +17,6 @@ img {
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 a:hover {
@@ -33,6 +32,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .logo__icon {
@@ -195,6 +195,7 @@ header {
 .offers__box__text {
     padding: 0px 20px;
 }
+
 .bottom-btn {
     display: flex;
     flex-direction: column;
@@ -217,7 +218,7 @@ footer {
     font-size: 2em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
     
     header {
         justify-content: right;
@@ -274,7 +275,7 @@ footer {
     }
 
     .btn-blue, .btn {
-        margin: 0px 10px;
+        margin: 0px 20px;
         width: 200px;
     }
 
@@ -288,11 +289,12 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding-right: 10px;
     }
 
     .graphic__img {
         height: 100px;
-        padding-right: 30px;
+        padding-right: 40px;
     }
 
     .graphic__text {
